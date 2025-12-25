@@ -1,0 +1,101 @@
+########################################
+# Unity (source-controlled)
+########################################
+# Keep: Assets/, Packages/, ProjectSettings/
+# Ignore Unity-generated / cache folders (root or nested)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Uu]ser[Ss]ettings/
+
+# Optional: capture folders Unity can generate
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+########################################
+# ML / Python virtual environments
+########################################
+**/MLvenv/
+**/mlvenv/
+**/.venv/
+**/venv/
+**/env/
+**/__pycache__/
+**/*.pyc
+
+########################################
+# Unity crash / logs
+########################################
+*.log
+sysinfo.txt
+mono_crash.*
+
+########################################
+# IDE / OS junk
+########################################
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+desktop.ini
+
+########################################
+# Unity auto-generated solution files
+########################################
+*.csproj
+*.unityproj
+*.sln
+*.tmp
+
+# Rider / JetBrains plugin
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+
+########################################
+# Package managers / build tooling caches
+########################################
+.gradle/
+
+########################################
+# Build artifacts (optional — keep if you don't want builds tracked)
+########################################
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+########################################
+# Addressables (generated output)
+########################################
+/ServerData
+**/[Aa]ssets/StreamingAssets/aa*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+########################################
+# Visual Scripting generated files
+########################################
+**/[Aa]ssets/Unity.VisualScripting.Generated/
+
+########################################
+# PlayMode / TestRunner generated scenes
+########################################
+InitTestScene*.unity*
+**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+########################################
+# Blender backups (if you use Blender)
+########################################
+*.blend1
+*.blend1.meta
